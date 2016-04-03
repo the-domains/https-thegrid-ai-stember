@@ -2,6 +2,7 @@ name: 'https://thegrid.ai/stember'
 favicon: null
 layout_spectrum: 0.7891395189799368
 typography_spectrum: 0.2401269101537764
+title: STORYS
 cta:
   domain: null
   bucket: null
