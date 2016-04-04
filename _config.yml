@@ -1,29 +1,41 @@
-name: 'https://thegrid.ai/stember'
-favicon: null
-layout_spectrum: 0.7891395189799368
-typography_spectrum: 0.2401269101537764
 title: STORYS
 cta:
-  domain: null
-  bucket: null
   version: null
+  bucket: null
+  domain: null
+layout_spectrum: 0
+favicon: null
+name: 'https://thegrid.ai/stember'
+purpose: []
 analytics:
+  twitter: null
   google: null
   facebook: null
-  twitter: null
 opengraph:
   image: null
   type: null
   appId: null
+collections:
+  - index:
+      navigable: true
+      path: /
+      number: 15
+      paginate: true
+    feed:
+      format: rss
+      path: /rss.xml
+      number: 10
+    permalink:
+      path: '/:title/'
 color:
+  brandStrength: 0.4419579482637346
+  lightness: 0.5093985
+  saturation: 0.5225564
+  rhythmicContrast: 0.5275689
   brandColors:
     - '#A690A4'
     - '#B68F9D'
     - '#C8ACAB'
     - '#FBB9BF'
     - '#E376B7'
-  brandStrength: 0.4419579482637346
-  lightness: 0.5249222591519356
-  saturation: 0.38595781731419265
-  rhythmicContrast: 0.9276759151834995
-purpose: []
+typography_spectrum: 0.05513784
